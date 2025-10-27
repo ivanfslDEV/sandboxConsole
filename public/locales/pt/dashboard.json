@@ -1,0 +1,24 @@
+{
+  "title": "Painel",
+  "subtitle": "Visão geral rápida",
+  "tiles": {
+    "requests24h": "Pedidos (24h)",
+    "latencyP95": "Latência (p95)",
+    "errors24h": "Erros (24h)"
+  },
+  "sections": {
+    "traffic": "Tráfego",
+    "statusBreakdown": "Distribuição de estados",
+    "recent": "Atividade recente"
+  },
+  "table": {
+    "date": "Data",
+    "key": "Chave",
+    "requests": "Pedidos",
+    "ok": "2xx",
+    "warn": "4xx",
+    "err": "5xx"
+  },
+  "empty": "Sem dados para apresentar",
+  "ms": "ms"
+}

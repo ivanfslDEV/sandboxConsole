@@ -1,10 +1,24 @@
 {
   "title": "Dashboard",
   "subtitle": "Overview at a glance",
-  "requests24h": "Requests (24h)",
-  "latencyP95": "Latency (p95)",
-  "errors": "Errors",
-  "ms": "ms",
-  "requests_plural": "{{count}} requests",
-  "requests_one": "{{count}} request"
+  "tiles": {
+    "requests24h": "Requests (24h)",
+    "latencyP95": "Latency (p95)",
+    "errors24h": "Errors (24h)"
+  },
+  "sections": {
+    "traffic": "Traffic",
+    "statusBreakdown": "Status breakdown",
+    "recent": "Recent activity"
+  },
+  "table": {
+    "date": "Date",
+    "key": "Key",
+    "requests": "Requests",
+    "ok": "2xx",
+    "warn": "4xx",
+    "err": "5xx"
+  },
+  "empty": "No data to display",
+  "ms": "ms"
 }
