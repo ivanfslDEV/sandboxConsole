@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2025-10-21",
+    "keyId": "server",
+    "requests": 5050,
+    "status2xx": 4930,
+    "status4xx": 90,
+    "status5xx": 30
+  },
+  {
+    "date": "2025-10-22",
+    "keyId": "server",
+    "requests": 5300,
+    "status2xx": 5170,
+    "status4xx": 90,
+    "status5xx": 40
+  },
+  {
+    "date": "2025-10-23",
+    "keyId": "server",
+    "requests": 5500,
+    "status2xx": 5380,
+    "status4xx": 90,
+    "status5xx": 30
+  },
+  {
+    "date": "2025-10-24",
+    "keyId": "server",
+    "requests": 5700,
+    "status2xx": 5560,
+    "status4xx": 100,
+    "status5xx": 40
+  },
+  {
+    "date": "2025-10-25",
+    "keyId": "server",
+    "requests": 4950,
+    "status2xx": 4860,
+    "status4xx": 70,
+    "status5xx": 20
+  },
+  {
+    "date": "2025-10-26",
+    "keyId": "server",
+    "requests": 5200,
+    "status2xx": 5070,
+    "status4xx": 90,
+    "status5xx": 40
+  },
+  {
+    "date": "2025-10-27",
+    "keyId": "server",
+    "requests": 5400,
+    "status2xx": 5270,
+    "status4xx": 90,
+    "status5xx": 40
+  },
+  {
+    "date": "2025-10-21",
+    "keyId": "frontend",
+    "requests": 2100,
+    "status2xx": 2040,
+    "status4xx": 40,
+    "status5xx": 20
+  },
+  {
+    "date": "2025-10-22",
+    "keyId": "frontend",
+    "requests": 2300,
+    "status2xx": 2230,
+    "status4xx": 40,
+    "status5xx": 30
+  },
+  {
+    "date": "2025-10-23",
+    "keyId": "frontend",
+    "requests": 2400,
+    "status2xx": 2330,
+    "status4xx": 50,
+    "status5xx": 20
+  },
+  {
+    "date": "2025-10-24",
+    "keyId": "frontend",
+    "requests": 2450,
+    "status2xx": 2380,
+    "status4xx": 50,
+    "status5xx": 20
+  },
+  {
+    "date": "2025-10-25",
+    "keyId": "frontend",
+    "requests": 2000,
+    "status2xx": 1950,
+    "status4xx": 30,
+    "status5xx": 20
+  },
+  {
+    "date": "2025-10-26",
+    "keyId": "frontend",
+    "requests": 2150,
+    "status2xx": 2090,
+    "status4xx": 40,
+    "status5xx": 20
+  },
+  {
+    "date": "2025-10-27",
+    "keyId": "frontend",
+    "requests": 2350,
+    "status2xx": 2280,
+    "status4xx": 50,
+    "status5xx": 20
+  }
+]

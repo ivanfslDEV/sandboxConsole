@@ -1,0 +1,24 @@
+{
+  "title": "Usage",
+  "subtitle": "Daily request volumes and status",
+  "filters": {
+    "range": "Date range",
+    "key": "API key",
+    "all": "All keys",
+    "apply": "Apply"
+  },
+  "table": {
+    "date": "Date",
+    "key": "Key",
+    "requests": "Requests",
+    "ok": "2xx",
+    "warn": "4xx",
+    "err": "5xx"
+  },
+  "empty": {
+    "title": "No data in this range",
+    "desc": "Try selecting a different date range or key."
+  },
+  "error": { "title": "Could not load usage data", "retry": "Retry" },
+  "chart": { "requests": "Requests" }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Utilização",
+  "subtitle": "Volume diário de pedidos e estados",
+  "filters": {
+    "range": "Intervalo de datas",
+    "key": "Chave API",
+    "all": "Todas as chaves",
+    "apply": "Aplicar"
+  },
+  "table": {
+    "date": "Data",
+    "key": "Chave",
+    "requests": "Pedidos",
+    "ok": "2xx",
+    "warn": "4xx",
+    "err": "5xx"
+  },
+  "empty": {
+    "title": "Sem dados neste intervalo",
+    "desc": "Tente outro intervalo de datas ou chave."
+  },
+  "error": {
+    "title": "Não foi possível carregar os dados",
+    "retry": "Tentar novamente"
+  },
+  "chart": { "requests": "Pedidos" }
+}
