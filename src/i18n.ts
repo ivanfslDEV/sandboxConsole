@@ -9,7 +9,7 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: "en",
-    supportedLngs: ["en", "pt"],
+    supportedLngs: ["en", "pt", "fr"],
     ns: ["common", "dashboard", "docs", "keys", "settings", "usage"],
     defaultNS: "common",
     // where to load from (served by Vite dev server / production)

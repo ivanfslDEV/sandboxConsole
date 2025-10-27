@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 const options = [
   { value: "en", label: "English" },
   { value: "pt", label: "Português" },
+  { value: "fr", label: "Français" },
 ];
 
 export default function LanguageSwitcher() {

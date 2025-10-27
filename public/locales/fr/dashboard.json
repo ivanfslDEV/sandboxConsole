@@ -1,0 +1,24 @@
+{
+  "title": "Tableau de bord",
+  "subtitle": "Aperçu en un coup d'œil",
+  "tiles": {
+    "requests24h": "Requêtes (24h)",
+    "latencyP95": "Latence (p95)",
+    "errors24h": "Erreurs (24h)"
+  },
+  "sections": {
+    "traffic": "Trafic",
+    "statusBreakdown": "Répartition des statuts",
+    "recent": "Activité récente"
+  },
+  "table": {
+    "date": "Date",
+    "key": "Clé",
+    "requests": "Requêtes",
+    "ok": "2xx",
+    "warn": "4xx",
+    "err": "5xx"
+  },
+  "empty": "Aucune donnée à afficher",
+  "ms": "ms"
+}

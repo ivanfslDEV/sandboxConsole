@@ -1,0 +1,27 @@
+{
+  "title": "Utilisation",
+  "subtitle": "Volumes journaliers de requêtes et statut",
+  "filters": {
+    "range": "Plage de dates",
+    "key": "Clé API",
+    "all": "Toutes les clés",
+    "apply": "Appliquer"
+  },
+  "table": {
+    "date": "Date",
+    "key": "Clé",
+    "requests": "Requêtes",
+    "ok": "2xx",
+    "warn": "4xx",
+    "err": "5xx"
+  },
+  "empty": {
+    "title": "Aucune donnée dans cette plage",
+    "desc": "Essayez de sélectionner une autre plage de dates ou une autre clé."
+  },
+  "error": {
+    "title": "Impossible de charger les données d'utilisation",
+    "retry": "Réessayer"
+  },
+  "chart": { "requests": "Requêtes" }
+}

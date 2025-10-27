@@ -1,0 +1,17 @@
+{
+  "title": "Documentation",
+  "subtitle": "Prise en main",
+  "quickstart": {
+    "intro": "Appelez un endpoint exemple en utilisant votre clé API dans l'en-tête Authorization.",
+    "baseUrl": "URL de base",
+    "endpoint": "Point de terminaison",
+    "curl": "cURL",
+    "node": "Node",
+    "python": "Python",
+    "copy": "Copier",
+    "copied": "Copié !",
+    "copyError": "Échec de la copie",
+    "tipTitle": "Astuce",
+    "tipBody": "Si vous obtenez 401 : assurez-vous que l'en-tête Authorization est défini et que la clé est active. Dans les navigateurs, utilisez votre serveur comme proxy pour éviter les problèmes CORS."
+  }
+}
