@@ -1,0 +1,10 @@
+{
+  "title": "Dashboard",
+  "subtitle": "Overview at a glance",
+  "requests24h": "Requests (24h)",
+  "latencyP95": "Latency (p95)",
+  "errors": "Errors",
+  "ms": "ms",
+  "requests_plural": "{{count}} requests",
+  "requests_one": "{{count}} request"
+}

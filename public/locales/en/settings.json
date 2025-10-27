@@ -1,0 +1,7 @@
+{
+  "title": "Settings",
+  "description": "Update your profile and preferences",
+  "form": {
+    "language": "Language"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Configuração",
+  "description": "Atualiza o teu perfil e preferências",
+  "form": {
+    "language": "Idioma"
+  }
+}

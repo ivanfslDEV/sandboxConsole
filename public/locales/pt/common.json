@@ -1,0 +1,12 @@
+{
+  "app": "ZAMA Sandbox",
+  "appAbbreviation": "ZAMA",
+  "controlPanel": "Painel de Controlo",
+  "nav": {
+    "dashboard": "Painel",
+    "apiKeys": "Chaves de API",
+    "usage": "Utilização",
+    "docs": "Documentação",
+    "settings": "Configuração"
+  }
+}
