@@ -1,0 +1,19 @@
+{
+  "title": "Documentação",
+  "subtitle": "Primeiros passos",
+  "quickstart": {
+    "intro": "Faça uma chamada a um endpoint de exemplo usando a sua API key no cabeçalho Authorization.",
+    "baseUrl": "URL base",
+    "endpoint": "Endpoint",
+    "curl": "cURL",
+    "node": "Node",
+    "python": "Python",
+    "copy": "Copiar",
+    "copied": "Copiado!",
+    "copyError": "Falha ao copiar",
+    "tipTitle": "Dica",
+    "tipBody": "Se obtiver 401: confirme o cabeçalho Authorization e se a chave está ativa. Em browsers, use um proxy no servidor para evitar CORS.",
+    "sampleMessage": "olá",
+    "sampleKeyPlaceholder": "sk_live_..."
+  }
+}

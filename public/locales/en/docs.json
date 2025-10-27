@@ -1,0 +1,17 @@
+{
+  "title": "Docs",
+  "subtitle": "Getting started",
+  "quickstart": {
+    "intro": "Call a toy endpoint using your API key in the Authorization header.",
+    "baseUrl": "Base URL",
+    "endpoint": "Endpoint",
+    "curl": "cURL",
+    "node": "Node",
+    "python": "Python",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "copyError": "Copy failed",
+    "tipTitle": "Tip",
+    "tipBody": "If you get 401: ensure the Authorization header is set and the key is active. In browsers, use your server as a proxy to avoid CORS."
+  }
+}

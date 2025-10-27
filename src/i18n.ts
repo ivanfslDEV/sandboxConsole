@@ -10,7 +10,7 @@ i18n
   .init({
     fallbackLng: "en",
     supportedLngs: ["en", "pt"],
-    ns: ["common", "dashboard"],
+    ns: ["common", "dashboard", "docs", "keys", "settings", "usage"],
     defaultNS: "common",
     // where to load from (served by Vite dev server / production)
     backend: { loadPath: "/locales/{{lng}}/{{ns}}.json" },
