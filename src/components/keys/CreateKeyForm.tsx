@@ -19,13 +19,9 @@ export default function CreateKeyForm({ loading, onCreate }: Props) {
         label={t("keys:label")}
         rules={[{ required: true, message: t("keys:labelRequired") }]}
       >
-        <Input
-          data-testid="keys-label-input"
-          placeholder="e.g., Backend service"
-        />
+        <Input placeholder="e.g., Backend service" />
       </Form.Item>
       <Button
-        data-testid="keys-create-btn"
         type="primary"
         htmlType="submit"
         loading={loading}

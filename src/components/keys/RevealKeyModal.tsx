@@ -14,7 +14,6 @@ export default function RevealKeyModal({ reveal, onClose, onCopy }: Props) {
   const { t } = useTranslation(["keys"]);
   return (
     <Modal
-      data-testid="keys-reveal-modal"
       title={t("keys:yourNewKey")}
       open={!!reveal}
       onOk={onClose}
@@ -29,14 +28,8 @@ export default function RevealKeyModal({ reveal, onClose, onCopy }: Props) {
           <div className="text-sm text-gray-500">{t("keys:copyNow")}</div>
           <div className="p-2 rounded bg-gray-100 flex items-center gap-2 break-all">
             <KeyOutlined />
-            <code data-testid="keys-reveal-full" className="text-xs">
-              {reveal.full}
-            </code>
-            <Button
-              data-testid="keys-reveal-copy"
-              size="small"
-              onClick={() => onCopy(reveal.full)}
-            >
+            <code className="text-xs">{reveal.full}</code>
+            <Button size="small" onClick={() => onCopy(reveal.full)}>
               {t("keys:copy")}
             </Button>
           </div>

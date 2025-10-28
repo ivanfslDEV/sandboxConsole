@@ -55,14 +55,10 @@ export default function Usage() {
       ) : (
         <div className="grid grid-cols-1 gap-4">
           <div className="bg-white rounded-2xl p-4">
-            <div data-testid="usage-chart">
-              <UsageChart data={data} />
-            </div>
+            <UsageChart data={data} />
           </div>
           <div className="bg-white rounded-2xl p-4 overflow-auto">
-            <div data-testid="usage-table">
-              <UsageTable data={data} />
-            </div>
+            <UsageTable data={data} />
           </div>
         </div>
       )}

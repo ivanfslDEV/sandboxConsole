@@ -56,61 +56,35 @@ export default function KeysTable({
     },
     {
       title: t("keys:actions"),
-      width: 320,
+      width: 260,
       render: (_: unknown, r: ApiKeyRow) => (
         <Space wrap>
           <Tooltip title={t("keys:actionCopy")}>
-            <Button
-              data-testid={`keys-copy-btn-${r.id}`}
-              icon={<CopyOutlined />}
-              onClick={() => onCopy(r.masked)}
-            />
+            <Button icon={<CopyOutlined />} onClick={() => onCopy(r.masked)} />
           </Tooltip>
-
           <Tooltip title={t("keys:actionRegenerate")}>
             <Button
-              data-testid={`keys-regenerate-btn-${r.id}`}
               icon={<ReloadOutlined />}
               onClick={() => onRegenerate(r.id)}
             />
           </Tooltip>
-
           {r.status === "active" ? (
             <Popconfirm
               title={t("keys:actionRevoke")}
               okText={t("keys:revoke")}
-              okButtonProps={
-                {
-                  danger: true,
-                  // botão de confirmar dentro do Popconfirm:
-                  "data-testid": `keys-revoke-confirm-${r.id}`,
-                } as any
-              }
+              okButtonProps={{ danger: true }}
+              onConfirm={() => onRevoke(r.id)}
             >
-              <Button
-                data-testid={`keys-revoke-btn-${r.id}`}
-                danger
-                icon={<StopOutlined />}
-              >
+              <Button danger icon={<StopOutlined />}>
                 {t("keys:revoke")}
               </Button>
             </Popconfirm>
           ) : (
             <Popconfirm
               title={t("keys:actionDelete")}
-              okButtonProps={
-                {
-                  "data-testid": `keys-delete-confirm-${r.id}`,
-                } as any
-              }
               onConfirm={() => onRemove(r.id)}
             >
-              <Button
-                data-testid={`keys-delete-btn-${r.id}`}
-                icon={<DeleteOutlined />}
-              >
-                {t("keys:delete")}
-              </Button>
+              <Button icon={<DeleteOutlined />}>{t("keys:delete")}</Button>
             </Popconfirm>
           )}
         </Space>
@@ -120,7 +94,6 @@ export default function KeysTable({
 
   return (
     <Table
-      data-testid="keys-table"
       size="middle"
       rowKey="id"
       columns={columns as any}
