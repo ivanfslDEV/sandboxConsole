@@ -3,5 +3,12 @@
   "description": "Mettez à jour votre profil et vos préférences",
   "form": {
     "language": "Langue"
-  }
+  },
+  "toggles": {
+    "compact": "Mode compact",
+    "brand": "Couleur de la marque",
+    "radius": "Arrondi des coins"
+  },
+  "brands": { "emerald": "Vert", "indigo": "Indigo" },
+  "radius": { "sm": "Petit", "md": "Moyen", "lg": "Grand" }
 }

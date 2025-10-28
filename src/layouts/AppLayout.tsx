@@ -2,6 +2,7 @@
 import { type PropsWithChildren, useMemo, useState, useEffect } from "react";
 import { Layout, Menu, Grid, Drawer, Button, Avatar, Dropdown } from "antd";
 import { Link, useLocation } from "react-router-dom";
+import { useFeatureFlags } from "../flags/FeatureFlagsProvider";
 import {
   DashboardOutlined,
   KeyOutlined,
@@ -22,6 +23,7 @@ export default function AppLayout({ children }: PropsWithChildren) {
   const screens = useBreakpoint();
   const isMobile = !screens.lg;
   const { token } = useAuth();
+  const { flags } = useFeatureFlags();
 
   const { t, i18n } = useTranslation(["common", "dashboard"]);
 
@@ -174,9 +176,9 @@ export default function AppLayout({ children }: PropsWithChildren) {
           getContainer={() => document.body} // ensure top-level portal
           styles={{
             mask: { backdropFilter: "blur(2px)" },
-            body: { padding: 0, background: "#001529" }, // matches Ant dark sider
+            body: { padding: 0, background: "#001529" },
+            header: { display: "none" }, // matches Ant dark sider
           }}
-          headerStyle={{ display: "none" }}
         >
           {MenuContent}
         </Drawer>

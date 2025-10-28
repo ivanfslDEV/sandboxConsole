@@ -3,5 +3,12 @@
   "description": "Atualiza o teu perfil e preferências",
   "form": {
     "language": "Idioma"
-  }
+  },
+  "toggles": {
+    "compact": "Modo compacto",
+    "brand": "Cor da marca",
+    "radius": "Raio dos cantos"
+  },
+  "brands": { "emerald": "Verde", "indigo": "Índigo" },
+  "radius": { "sm": "Pequeno", "md": "Médio", "lg": "Grande" }
 }

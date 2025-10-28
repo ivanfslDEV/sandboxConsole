@@ -3,5 +3,12 @@
   "description": "Update your profile and preferences",
   "form": {
     "language": "Language"
-  }
+  },
+  "toggles": {
+    "compact": "Compact mode",
+    "brand": "Brand color",
+    "radius": "Border radius"
+  },
+  "brands": { "emerald": "Emerald", "indigo": "Indigo" },
+  "radius": { "sm": "Small", "md": "Medium", "lg": "Large" }
 }

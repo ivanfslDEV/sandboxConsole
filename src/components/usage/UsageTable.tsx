@@ -1,4 +1,3 @@
-// src/features/usage/UsageTable.tsx
 import { Table, Tag } from "antd";
 import type { UsageRow } from "../../features/usage/types";
 import { useTranslation } from "react-i18next";
@@ -9,7 +8,6 @@ export default function UsageTable({ data }: { data: UsageRow[] }) {
   const [page, setPage] = useState(1);
   const [pageSize, setPageSize] = useState(8);
 
-  // Quando os filtros mudam (data muda), volta para a página 1
   useEffect(() => {
     setPage(1);
   }, [data]);
