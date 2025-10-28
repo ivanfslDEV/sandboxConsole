@@ -5,14 +5,13 @@ import CodeSnippet from "../components/CodeSnippet";
 import InlineTip from "../components/InlineTip";
 
 const BASE_URL = "https://api.yourapp.dev/v1";
-const ENDPOINT = "/echo"; // toy endpoint
+const ENDPOINT = "/echo";
 
 export default function Docs() {
   const { t } = useTranslation("docs");
 
-  // Strings localizadas usadas dentro do código de exemplo
-  const sampleMsg = t("quickstart.sampleMessage"); // "hello"/"olá"
-  const sampleKey = t("quickstart.sampleKeyPlaceholder"); // "sk_live_..."
+  const sampleMsg = t("quickstart.sampleMessage");
+  const sampleKey = t("quickstart.sampleKeyPlaceholder");
 
   const buildCurl = (apiKey = sampleKey) =>
     `curl -X POST '${BASE_URL}${ENDPOINT}' \\

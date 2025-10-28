@@ -30,7 +30,6 @@ export function useApiKeys() {
         masked: maskKey(full),
       };
       persist((prev) => [row, ...prev]);
-      // return the full key ONLY NOW (caller must show & allow copy)
       return { row, full };
     },
     [persist]

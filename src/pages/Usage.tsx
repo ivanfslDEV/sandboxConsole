@@ -9,7 +9,7 @@ import { useUsageData } from "../features/usage/useUsageData";
 export default function Usage() {
   const { t } = useTranslation("usage");
   const { loading, error, data, keys, filters, setFilters, reload } =
-    useUsageData("json"); // or 'csv'
+    useUsageData("json");
 
   if (loading) {
     return (

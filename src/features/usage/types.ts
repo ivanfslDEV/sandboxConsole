@@ -1,6 +1,6 @@
 export type UsageRow = {
-  date: string; // YYYY-MM-DD
-  keyId: string; // e.g. 'server'
+  date: string;
+  keyId: string;
   requests: number;
   status2xx: number;
   status4xx: number;

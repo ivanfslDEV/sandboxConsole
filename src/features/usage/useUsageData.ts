@@ -20,9 +20,9 @@ function parseCSV(text: string): UsageRow[] {
 }
 
 export type UsageFilters = {
-  start?: string; // YYYY-MM-DD
-  end?: string; // YYYY-MM-DD (inclusive)
-  keyId?: string; // undefined = all
+  start?: string;
+  end?: string;
+  keyId?: string;
 };
 
 export function useUsageData(source: "json" | "csv" = "json") {

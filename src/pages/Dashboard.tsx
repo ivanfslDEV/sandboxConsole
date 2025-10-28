@@ -91,7 +91,6 @@ export default function Dashboard() {
             />
           </Card>
 
-          {/* Traffic chart */}
           <Card className="rounded-2xl">
             <h3 className="text-base font-semibold mb-2">
               {t("sections.traffic")}
@@ -99,7 +98,6 @@ export default function Dashboard() {
             <MiniArea data={trend} dataKey="requests" />
           </Card>
 
-          {/* Recent activity table */}
           <Card className="rounded-2xl overflow-auto">
             <h3 className="text-base font-semibold mb-3">
               {t("sections.recent")}

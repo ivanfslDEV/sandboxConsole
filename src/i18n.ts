@@ -12,13 +12,12 @@ i18n
     supportedLngs: ["en", "pt", "fr"],
     ns: ["common", "dashboard", "docs", "keys", "settings", "usage"],
     defaultNS: "common",
-    // where to load from (served by Vite dev server / production)
     backend: { loadPath: "/locales/{{lng}}/{{ns}}.json" },
     detection: {
       order: ["querystring", "localStorage", "navigator"],
       caches: ["localStorage"],
     },
-    interpolation: { escapeValue: false }, // React escapes by default
+    interpolation: { escapeValue: false },
     returnNull: false,
   });
 

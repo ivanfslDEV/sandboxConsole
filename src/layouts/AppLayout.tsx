@@ -1,4 +1,3 @@
-// src/layouts/AppLayout.tsx
 import { type PropsWithChildren, useMemo, useState, useEffect } from "react";
 import { Layout, Menu, Grid, Drawer, Button, Avatar, Dropdown } from "antd";
 import { Link, useLocation } from "react-router-dom";
