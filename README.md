@@ -1,4 +1,4 @@
-# YourApp — React + TypeScript Admin Starter
+# ZAMA SandBox — React + TypeScript Admin Starter
 
 A production-quality, mobile-first SPA built with Vite + React + TypeScript + TailwindCSS + Ant Design.
 It ships with auth (mock OIDC), feature flags, i18n (EN/PT), API key management, usage analytics with charts, a docs/quickstart, and Playwright E2E tests.
