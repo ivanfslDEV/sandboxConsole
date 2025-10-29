@@ -7,7 +7,7 @@ It ships with auth (mock OIDC), feature flags, i18n (EN/PT), API key management,
 
 ## Table of Contents
 
--[Deployed demo](#deployed-demo)
+- [Deployed demo](#deployed-demo)
 - [Features](#features)
 - [Tech Stack & Decisions](#tech-stack--decisions)
 - [Quick Start](#quick-start)
@@ -25,7 +25,7 @@ It ships with auth (mock OIDC), feature flags, i18n (EN/PT), API key management,
   - [Performance](#accessibility--performance)
 
 ## Deployed demo
--https://sandbox-console-3d0eqfrpr-ivan-limas-projects-87739961.vercel.app/
+- https://sandbox-console-3d0eqfrpr-ivan-limas-projects-87739961.vercel.app/
 
 ## Features
 
