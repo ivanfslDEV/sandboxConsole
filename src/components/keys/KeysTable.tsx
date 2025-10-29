@@ -82,10 +82,10 @@ export default function KeysTable({
               okButtonProps={
                 {
                   danger: true,
-                  // botão de confirmar dentro do Popconfirm:
                   "data-testid": `keys-revoke-confirm-${r.id}`,
                 } as any
               }
+              onConfirm={() => onRevoke(r.id)}
             >
               <Button
                 data-testid={`keys-revoke-btn-${r.id}`}

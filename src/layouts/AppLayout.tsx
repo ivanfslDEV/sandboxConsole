@@ -1,7 +1,6 @@
-import { type PropsWithChildren, useMemo, useState, useEffect } from "react";
+import { useMemo, useState, useEffect } from "react";
 import { Layout, Menu, Grid, Drawer, Button, Avatar, Dropdown } from "antd";
 import { Link, useLocation } from "react-router-dom";
-import { useFeatureFlags } from "../flags/FeatureFlagsProvider";
 import {
   DashboardOutlined,
   KeyOutlined,
@@ -17,12 +16,11 @@ import { useTranslation } from "react-i18next";
 const { Header, Sider, Content } = Layout;
 const { useBreakpoint } = Grid;
 
-export default function AppLayout({ children }: PropsWithChildren) {
+export default function AppLayout() {
   const { pathname } = useLocation();
   const screens = useBreakpoint();
   const isMobile = !screens.lg;
   const { token } = useAuth();
-  const { flags } = useFeatureFlags();
 
   const { t, i18n } = useTranslation(["common", "dashboard"]);
 

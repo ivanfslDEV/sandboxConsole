@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next";
 export default function PageHeader({
   title,
   subtitle,
@@ -6,7 +5,6 @@ export default function PageHeader({
   title: string;
   subtitle?: string;
 }) {
-  const { t } = useTranslation();
   return (
     <div className="mb-6">
       <h1 className="text-2xl font-semibold">{title}</h1>

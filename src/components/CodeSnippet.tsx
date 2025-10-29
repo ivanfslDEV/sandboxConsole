@@ -5,7 +5,6 @@ import { useState } from "react";
 
 export default function CodeSnippet({
   code,
-  lang,
 }: {
   code: string;
   lang: "bash" | "javascript" | "python";
