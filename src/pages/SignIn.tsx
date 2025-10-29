@@ -37,16 +37,28 @@ export default function SignIn() {
             label="Email"
             rules={[{ required: true, type: "email" }]}
           >
-            <Input placeholder="you@example.com" autoFocus />
+            <Input
+              data-testid="signin-email"
+              placeholder="you@example.com"
+              autoFocus
+            />
           </Form.Item>
           <Form.Item
             name="password"
             label="Password"
             rules={[{ required: true }]}
           >
-            <Input.Password placeholder="••••••••" />
+            <Input.Password
+              data-testid="signin-password"
+              placeholder="••••••••"
+            />
           </Form.Item>
-          <Button type="primary" htmlType="submit" block>
+          <Button
+            data-testid="signin-submit"
+            type="primary"
+            htmlType="submit"
+            block
+          >
             Continue
           </Button>
         </Form>
